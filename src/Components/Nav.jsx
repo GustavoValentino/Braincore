@@ -5,8 +5,8 @@ import LogoImage from "../assets/Images/logo01.png";
 import DropdownItem from "./DropdownItem";
 
 const navLinks = [
-  { name: "Home", to: "/", stateKey: "home" },
-  { name: "Sobre", to: "/sobre", stateKey: "sobre" },
+  { name: "Home", to: "/", stateKey: "index" },
+  { name: "Sobre", to: "/about", stateKey: "about" },
   {
     name: "Páginas",
     to: "#",

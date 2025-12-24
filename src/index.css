@@ -305,6 +305,10 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.service-item-about {
+  background-color: #000;
+}
+
 .braincore-bubble {
   position: absolute;
   right: 0;
@@ -552,4 +556,46 @@ body {
   opacity: 1;
   transform: translateY(0) scale(1);
   -webkit-transform: translateY(0) scale(1);
+}
+
+/* Section Banner */
+
+.section-banner {
+  background-image: url(assets/Images/section-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.section-banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+/* About Page */
+
+.banner {
+  background-image: url(assets/Images/banner.jpg);
+  background-position: top center;
+}
+
+.banner::after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.3;
+  z-index: 0;
 }
