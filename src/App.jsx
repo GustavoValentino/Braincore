@@ -4,7 +4,7 @@ import Nav from "./Components/Nav";
 
 import Footer from "./Components/Footer";
 import About from "./Pages/About";
-import Index from "./Pages";
+import Index from "./Pages/index";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Nav />
         <Routes>
-          <Route path="/" element={<Index />} />
+          <Route path="/index" element={<Index />} />
           <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
