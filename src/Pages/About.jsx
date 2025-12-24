@@ -123,7 +123,7 @@ function About() {
         </p>
         <ul className="flex gap-8 py-5">
           <li>
-            <Link to="/index" className="font-normal text-white text-lg">
+            <Link to="/" className="font-normal text-white text-lg">
               Home
             </Link>
           </li>
