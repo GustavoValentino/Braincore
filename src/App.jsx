@@ -4,7 +4,7 @@ import Nav from "./Components/Nav";
 
 import Footer from "./Components/Footer";
 import About from "./Pages/About";
-import Index from "./Pages/index";
+import Index from "./Pages/Index";
 
 function App() {
   return (
