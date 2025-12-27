@@ -1,75 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import team1 from "../assets/Images/team-01.png";
-import team2 from "../assets/Images/team-02.png";
-import team3 from "../assets/Images/team-03.png";
-import team4 from "../assets/Images/team-04.png";
-import team5 from "../assets/Images/team-05.jpg";
-import team6 from "../assets/Images/team-06.jpg";
 
-const teamMembers = [
-  {
-    id: "1",
-    name: "Aarav Rao",
-    role: "UI/UX Designer",
-    img: team1,
-    age: "27 Years",
-    location: "Mumbai, India",
-    email: "aarav.rao@gmail.com",
-    phone: "+55 1194999999",
-  },
-  {
-    id: "2",
-    name: "Aarav Rao",
-    role: "UI/UX Designer",
-    img: team2,
-    age: "27 Years",
-    location: "Mumbai, India",
-    email: "aarav.rao@gmail.com",
-    phone: "+55 1194999999",
-  },
-  {
-    id: "3",
-    name: "Aarav Rao",
-    role: "UI/UX Designer",
-    img: team3,
-    age: "27 Years",
-    location: "Mumbai, India",
-    email: "aarav.rao@gmail.com",
-    phone: "+55 1194999999",
-  },
-  {
-    id: "4",
-    name: "Aarav Rao",
-    role: "UI/UX Designer",
-    img: team4,
-    age: "27 Years",
-    location: "Mumbai, India",
-    email: "aarav.rao@gmail.com",
-    phone: "+55 1194999999",
-  },
-  {
-    id: "5",
-    name: "Aarav Rao",
-    role: "UI/UX Designer",
-    img: team5,
-    age: "27 Years",
-    location: "Mumbai, India",
-    email: "aarav.rao@gmail.com",
-    phone: "+55 1194999999",
-  },
-  {
-    id: "6",
-    name: "Aarav Rao",
-    role: "UI/UX Designer",
-    img: team6,
-    age: "27 Years",
-    location: "Mumbai, India",
-    email: "aarav.rao@gmail.com",
-    phone: "+55 1194999999",
-  },
-];
-const Team = () => {
+import { Link } from "react-router-dom";
+import { teamMembers } from "../data/teamData";
+function Team() {
   return (
     <>
       <div className="section-banner h-[500px] bg-[#121212] px-[2%] md:px-[8%] xl:px-[12%] flex flex-col justify-end items-start text-white w-full">
@@ -114,6 +47,6 @@ const Team = () => {
       </div>
     </>
   );
-};
+}
 
 export default Team;
