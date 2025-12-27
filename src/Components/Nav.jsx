@@ -12,7 +12,7 @@ const navLinks = [
     to: "#",
     stateKey: "pages",
     sublinks: [
-      { name: "Nosso Time", to: "/nossotime" },
+      { name: "Nosso Time", to: "/team" },
       { name: "Serviços", to: "/servicos" },
       { name: "Preços e Planos", to: "/precoseplanos" },
       { name: "Dúvidas", to: "/duvidas" },
