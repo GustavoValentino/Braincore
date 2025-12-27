@@ -19,7 +19,7 @@ function Team() {
             </Link>
           </li>
           <li>
-            <Link to="/about" className="font-normal text-white text-lg">
+            <Link to="/team" className="font-normal text-white text-lg">
               Nosso Time
             </Link>
           </li>
